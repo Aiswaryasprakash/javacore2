@@ -1,0 +1,45 @@
+abstract class faculty{
+String name;
+int age;
+int id;
+int sal;
+String course;
+int flag=0;
+abstract void search();
+}
+class permanent extends faculty
+{
+void search(){
+
+}
+}
+class temporary extends faculty
+{
+
+}
+class demo2{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in)
+System.out.println("enter num");
+int n=sc.nextInt();
+for(int i=0;i<n;i++)
+{
+System.out.println("enter id");
+int id=sc.nextInt();
+System.out.println("enter name");
+String name=sc.next();
+System.out.println("enter course");
+String course=sc.next();
+System.out.println("enter age");
+int age=sc.nextInt();
+System.out.println("enter salary");
+int sal=sc.nextInt();
+}
+System.out.println("total count"+n);
+if(course.equals("permanent"))
+{
+faculty f=new 
+
+}
+}
